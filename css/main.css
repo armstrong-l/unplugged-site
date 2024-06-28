@@ -103,18 +103,18 @@ h2 {
 }
 
 h3 {
-  margin:0;
+  margin: 0;
 }
 
 h4 {
-  margin:0;
+  margin: 0;
 }
 
 p {
   margin: 0;
 }
 
-   /* -------------------- Base Header - Footer Styles -------------------- */
+/* -------------------- Base Header - Footer Styles -------------------- */
 
 header {
   display: flex;
@@ -148,12 +148,12 @@ header nav ul {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  margin: 0;  
+  margin: 0;
   padding: 0;
 }
 
 footer {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -203,7 +203,7 @@ footer .copyright {
 /* --------- Hero Area  -------- */
 
 .hero-area {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -212,14 +212,14 @@ footer .copyright {
 /* ---------- Aside --------- */
 
 main aside {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
 }
 
 main aside .content-wrapper {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
@@ -227,16 +227,16 @@ main aside .content-wrapper {
 
 main aside h3 {
   padding: 20px 0;
- }
+}
 
 main aside p {
   padding: 0 0 30px 0;
- }
+}
 
 /* --------- Features Section --------- */
 
 .features {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -251,7 +251,7 @@ main aside p {
 }
 
 .features-items {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
@@ -270,31 +270,31 @@ main aside p {
 /* ----------- Reviews Section ---------- */
 
 .reviews {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .reviews h2 {
   padding: 0 0 40px 0;
- }
+}
 
 .reviews h3 {
   width: 53%;
   padding: 20px 0;
- }
+}
 
 
 /* -------------------- ABOUT Main --------------------- */
 
 .mission {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-  
+
 .contact-section {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -302,13 +302,13 @@ main aside p {
 /* -------------------- FAQ Main  -------------------- */
 
 .faq {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
@@ -413,22 +413,22 @@ main aside p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-   @media only screen and (min-width: 768px) {
-    /*Tablet styles here*/
-  
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
 
-/* Global Styles */
-.content-wrapper {
-  max-width: 640px;
-  margin: 100px 0;
-}
+
+  /* Global Styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
 
   /* Header and Footer Styles */
-  
+
   header {
     padding: 33px 0;
   }
-  
+
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -438,11 +438,11 @@ main aside p {
   header figure {
     width: 50%;
   }
-  
+
   .header-divider {
     display: none;
   }
-  
+
   header nav {
     width: 50%;
   }
@@ -451,7 +451,7 @@ main aside p {
     justify-content: flex-end;
   }
 
-  header nav ul li{
+  header nav ul li {
     width: 15%;
   }
 
@@ -463,7 +463,7 @@ main aside p {
     width: 65%;
     margin: 0;
   }
-  
+
   .footer-content {
     display: flex;
     justify-content: space-around;
@@ -485,215 +485,266 @@ main aside p {
 
   /* -------------------- HOMEPAGE Main  -------------------- */
 
-/* --------- Hero Area  -------- */
+  /* --------- Hero Area  -------- */
 
-.hero-area h1 {
-  width: 82%
-}
-
-/* --------- Aside -------- */
-
-main aside .content-wrapper {
-  margin: 50px 0;
-  justify-content: space-between;
-  align-content: flex-start;
-}
-  
- main aside .form-description, 
- main aside .form {
-  width: 40%;
-  margin: 0;
-}
-
-
-/* --------- Features Section --------- */
-
-.features h2 {
-  margin: 0 0 20px 0;
-}
-
-.features p {
-  padding: 0;
-}
-
-.features article {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  flex-basis: 50%
-}
-
-.features .features-item-description {
-  width: 50%;
-}
-
-.fontawesome-icons {
-  padding: 0 0 30px 0;
-}
-
-
-/* --------- Reviews Section --------- */
-
-.reviews article {
-  display: flex;
-  justify-content: space-between;
-}
-
-.reviews h2 {
-  width: 75%;
-}
-
-.reviews h3 {
-  width: 40%;
-}
-
-.reviews p {
-  width: 50%;
-}
-
-/* -------------------- ABOUT Main --------------------- */
-
-.mission {
-  /* display:flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-  
-.contact-section {
-  /* display:flex;
-  justify-content: center;
-  align-items: center; */
-}
-
-.mission-content {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 20px 0 0 0;
-}
-
-.mission-content p {
-  width: 45%
-}
-
-.contact-section h2 {
-  width: 80%;
-  padding: 0 0 20px 0;
-}
-
-.contact-content {
-  display: flex;
-  justify-content:space-between;
-  align-items: flex-start;
-}
-
-.contact-content h4 {
-  padding: 0 0 20px 0;
-}
-
-/* -------------------- FAQ Main  -------------------- */
-
-.faq {
-  /* display:flex; */
-  /* justify-content: center; */
-  /* flex-flow: row wrap; */
-}
-
-.faq .content-wrapper {
-  justify-content: space-between;
-  /* align-items: flex-start; */
-  /* flex-flow: row wrap; */
-  /* margin: 50px 0 0 0; */
-}
-
-.faq h2 {
-  width: 100%;
-}
-
-.faq-content {
-  /* margin: 0 0 50px 0; */
-  flex-basis: 45%;
-}
-
-
+  .hero-area h1 {
+    width: 82%
   }
+
+  /* --------- Aside -------- */
+
+  main aside .content-wrapper {
+    margin: 50px 0;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+
+  main aside .form-description,
+  main aside .form {
+    width: 40%;
+    margin: 0;
+  }
+
+
+  /* --------- Features Section --------- */
+
+  .features h2 {
+    margin: 0 0 20px 0;
+  }
+
+  .features p {
+    padding: 0;
+  }
+
+  .features article {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%
+  }
+
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  .fontawesome-icons {
+    padding: 0 0 30px 0;
+  }
+
+
+  /* --------- Reviews Section --------- */
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews h2 {
+    width: 75%;
+  }
+
+  .reviews h3 {
+    width: 40%;
+  }
+
+  .reviews p {
+    width: 50%;
+  }
+
+  /* -------------------- ABOUT Main --------------------- */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px 0 0 0;
+  }
+
+  .mission-content p {
+    width: 45%
+  }
+
+  .contact-section h2 {
+    width: 80%;
+    padding: 0 0 20px 0;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contact-content h4 {
+    padding: 0 0 20px 0;
+  }
+
+  /* -------------------- FAQ Main  -------------------- */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+}
+
+
 
   @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
+
+    /* Global Styles */
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /* Header and Footer Styles */
+
+    header {
+      padding: 15px 0;
+    }
+
+    footer .content-wrapper {
+      width: 100%;
+    }
+
+    .footer-content {
+      justify-content: space-between;
+    }
+
+    /* -------------------- HOMEPAGE Main  -------------------- */
+
+    /* --------- Hero Section --------- */
+
+    .hero-area h1 {
+      width: 80%;
+    }
+
+    /* --------- Aside Section --------- */
+
+    main aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    main aside .form-description,
+    main aside .form {
+      width: 30%;
+    }
+
+
+    /* --------- Features Section --------- */
+
+    .features h2 {
+      width: 90%;
+    }
+
+    .features article {
+      flex-basis: 33%;
+    }
+
+    /* --------- Reviews Section --------- */
+
+    .reviews h2 {
+      padding: 0 0 50px 0;
+    }
+
+    .reviews article div {
+      width: 42%;
+    }
+
+    /* -------------------- ABOUT Main  -------------------- */
+
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+      width: 95%;
+    }
+
+    /* -------------------- FAQ Main  -------------------- */
+
+    .faq h2 {
+      width: 100%;
+    }
+
   }
 
-/* ==========================================================================
+  /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+  @media print {
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
 
-  /*
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+
+    /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
 
-  pre {
-    white-space: pre-wrap !important;
-  }
+    pre {
+      white-space: pre-wrap !important;
+    }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
 
-  /*
+    /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
-    display: table-header-group;
-  }
+    thead {
+      display: table-header-group;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
   }
-}
-
