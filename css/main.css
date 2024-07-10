@@ -104,13 +104,6 @@ ol {
   list-style-type: none;
 }
 
-h1 {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-size: 2.25em;
-  line-height: 1.2;
-  margin: 0;
-}
-
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -137,9 +130,13 @@ p {
   margin: 0;
 }
 
-img {}
+img {
+  width: 100%;
+}
 
-figure {}
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -170,11 +167,13 @@ header .content-wrapper {
 }
 
 header figure {
+  width: 60%;
   margin: 0;
 }
 
 .header-divider {
-  width: 90%;
+  height: 1px;
+  width: 100%;
   margin: 10px 0 20px 0;
   background: #3a3a3a;
 }
@@ -252,10 +251,19 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #3a3a3a;
+  background-size: cover;
 }
 
+h1 {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 2.25em;
+  line-height: 1.2;
+  margin: 0;
+}
 /* ---------- Aside --------- */
 
 main aside {
@@ -314,6 +322,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #3a3a3a;
+  background-size: cover;
 }
 
 .features h2 {
@@ -547,7 +557,7 @@ input[type=button] {
   }
 
   header figure {
-    width: 50%;
+    width: 30%;
   }
 
   .header-divider {
@@ -603,9 +613,19 @@ input[type=button] {
 
   /* --------- Hero Area  -------- */
 
-  .hero-area h1 {
-    width: 90%
+  .hero-area {
+    height: 600px;
   }
+  
+  .hero-area .content-wrapper {
+
+  }
+
+  .hero-area h1 {
+    width: 90%;
+  }
+
+
 
   /* --------- Aside -------- */
 
@@ -652,20 +672,24 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .reviews article div,
+  .reviews figure {
+    width: 49%;
   }
 
   .reviews h2 {
-    width: 80%;
+    width: 75%;
   }
 
   .reviews h3 {
-    width: 40%;
+    width: 100%;
+    padding: 0 0 20px 0;
   }
 
-  .reviews p {
-    width: 50%;
-  }
-
+ 
   /* -------------------- ABOUT Main --------------------- */
 
   .mission-content {
