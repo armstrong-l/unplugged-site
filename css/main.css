@@ -236,7 +236,10 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
   background: #527158;
-}
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+ }
 
 footer .copyright {
   margin: 20px 0;
@@ -623,6 +626,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.286;
+  }
+
+  footer .social-icons {
+    width: 12em;
+    justify-content: space-between;   
   }
 
   /* -------------------- HOMEPAGE Main  -------------------- */
