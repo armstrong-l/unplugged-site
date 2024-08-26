@@ -607,7 +607,7 @@ input[type=button] {
 
   .footer-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     margin: 100px 0;
   }
@@ -641,8 +641,6 @@ input[type=button] {
   .hero-area {
     height: 600px;
   }
-
-  .hero-area .content-wrapper {}
 
   .hero-area h1 {
     width: 90%;
