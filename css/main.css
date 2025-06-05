@@ -143,7 +143,6 @@ address {
 }
 
 .content-wrapper {
-  /* outline: 3px dotted red; */
   width: 90%;
   margin: 50px 0;
 }
@@ -534,16 +533,10 @@ input[type=button] {
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+/* -------- Tablet styles -------- */
 @media only screen and (min-width: 768px) {
-  /*Tablet styles here*/
-
-
-  /* Global Styles */
+  
+  /* -------- Global Styles -------- */
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -564,7 +557,7 @@ input[type=button] {
     line-height: 1.25;
   }
 
-  /* Header and Footer Styles */
+  /* -------- Header and Footer Styles -------- */
 
   header {
     padding: 33px 0;
@@ -662,7 +655,7 @@ input[type=button] {
     margin: 0;
   }
 
-  /* --------- Features Section --------- */
+  /* -------- Features Section -------- */
 
   .features h2 {
     margin: 0 0 20px 0;
@@ -680,7 +673,7 @@ input[type=button] {
   }
 
 
-  /* --------- Reviews Section --------- */
+  /* -------- Reviews Section -------- */
 
   .reviews article {
     display: flex;
@@ -703,7 +696,7 @@ input[type=button] {
   }
 
 
-  /* -------------------- ABOUT Main --------------------- */
+  /* -------------------- ABOUT Main -------------------- */
 
   .mission-content {
     display: flex;
@@ -758,11 +751,10 @@ input[type=button] {
 
 }
 
-
+/* -------- Desktop styles -------- */
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
-
-  /* Global Styles */
+  
+  /* -------- Global Styles -------- */
   .content-wrapper {
     max-width: 960px;
   }
@@ -786,7 +778,7 @@ input[type=button] {
   }
 
 
-  /* Header and Footer Styles */
+  /* -------- Header and Footer Styles -------- */
 
   header {
     padding: 15px 0;
@@ -802,13 +794,13 @@ input[type=button] {
 
   /* -------------------- HOMEPAGE Main  -------------------- */
 
-  /* --------- Hero Section --------- */
+  /* -------- Hero Section -------- */
 
   .hero-area h1 {
     width: 80%;
   }
 
-  /* --------- Aside Section --------- */
+  /* -------- Aside Section -------- */
 
   main aside .content-wrapper {
     justify-content: space-around;
@@ -820,7 +812,7 @@ input[type=button] {
   }
 
 
-  /* --------- Features Section --------- */
+  /* -------- Features Section -------- */
 
   .features h2 {
     width: 90%;
@@ -830,7 +822,7 @@ input[type=button] {
     flex-basis: 33%;
   }
 
-  /* --------- Reviews Section --------- */
+  /* -------- Reviews Section -------- */
 
   .reviews h2 {
     padding: 0 0 50px 0;
